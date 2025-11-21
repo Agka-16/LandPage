@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resto Jiwan - Hidangan Lokal, Cita Rasa Global</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav>
+      <div class="container">
+        <div class="nav-container">
+          <div class="logo">Resto Jiwan</div>
+          <ul class="nav-links">
+            <li><a href="#home">Beranda</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#services">Keunggulan</a></li>
+            <li><a href="#testimonials">Testimoni</a></li>
+            <li><a href="#contact">Kontak</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hamburger Menu (Mobile) -->
+    <div class="hamburger" id="hamburger">☰</div>
+
+    <!-- Mobile Sidebar Menu -->
+    <div class="mobile-nav" id="mobileNav">
+      <ul>
+        <li><a href="#home">Beranda</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#services">Keunggulan</a></li>
+        <li><a href="#testimonials">Testimoni</a></li>
+        <li><a href="#contact">Kontak</a></li>
+      </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h1>Hidangan Lokal, Cita Rasa Global</h1>
+        <p>Cita rasa autentik dengan bahan-bahan segar dan berkualitas</p>
+        <a href="#contact" class="cta-button">Pesan Sekarang</a>
+      </div>
+    </section>
+
+    <!-- Menu Showcase -->
+    <section id="menu" class="menu-showcase">
+      <div class="container">
+        <h2 class="section-title fade-in-up">Menu Andalan Kami</h2>
+
+        <div class="menu-categories fade-in-up">
+          <button class="category-btn active" data-category="all">
+            Semua Menu
+          </button>
+          <button class="category-btn" data-category="makanan">Makanan</button>
+          <button class="category-btn" data-category="minuman">Minuman</button>
+        </div>
+
+        <div class="menu-grid fade-in-up">
+          <div class="menu-item" data-category="makanan">
+            <img src="Nasgor.jpg" alt="Nasgor Goreng" />
+            <div class="menu-content">
+              <h3>Nasi Goreng Spesial</h3>
+              <div class="menu-price">Rp 10.000</div>
+              <p class="menu-description">
+                Nasi Goreng dengan resep rahasia ditemani toping bawang goreng,
+                telur dan sayuran segar
+              </p>
+            </div>
+          </div>
+
+          <div class="menu-item" data-category="makanan">
+            <img src="pecel ngeMeN.webp" alt="Soto Ayam" />
+            <div class="menu-content">
+              <h3>Nasi Pecel Madiun</h3>
+              <div class="menu-price">Rp 7.000</div>
+              <p class="menu-description">
+                Nasi Pecel khas Madiun dengan resep rahasia disajikan bersama
+                siraman bumbu kacang gurih, ditemani aneka sayuran segar, peyek
+                renyah, dan lauk pilihan.
+              </p>
+            </div>
+          </div>
+
+          <div class="menu-item" data-category="makanan">
+            <img src="Goda Goda.webp" alt="Gado-gado" />
+            <div class="menu-content">
+              <h3>Gado-gado Jiwan</h3>
+              <div class="menu-price">Rp 12.000</div>
+              <p class="menu-description">
+                Gado-gado dengan bumbu kacang homemade, sayuran segar, dan
+                kerupuk renyah.
+              </p>
+            </div>
+          </div>
+
+          <div class="menu-item" data-category="minuman">
+            <img src="yo kono di dol.webp" alt="Es Teh" />
+            <div class="menu-content">
+              <h3>Es Teh Manis</h3>
+              <div class="menu-price">Rp 3.000</div>
+              <p class="menu-description">
+                Es teh manis segar dengan gula aren, sempurna untuk menemani
+                makanan.
+              </p>
+            </div>
+          </div>
+
+          <div class="menu-item" data-category="minuman">
+            <img src="Jeruk.webp" alt="Es Teh" />
+            <div class="menu-content">
+              <h3>Es Jeruk Segar</h3>
+              <div class="menu-price">Rp 5.000</div>
+              <p class="menu-description">
+                Es jeruk peras yang segar dengan rasa manis alami.
+              </p>
+            </div>
+          </div>
+
+          <div class="menu-item" data-category="minuman">
+            <img src="Alpukat.webp" alt="Jus Alpukat" />
+            <div class="menu-content">
+              <h3>Jus Alpukat Special</h3>
+              <div class="menu-price">Rp 8.000</div>
+              <p class="menu-description">
+                Jus alpukat creamy dengan topping coklat dan susu kental manis.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Service Overview -->
+    <section id="services" class="services">
+      <div class="container">
+        <h2 class="section-title fade-in-up">Keunggulan Resto Jiwan</h2>
+        <div class="services-grid">
+          <div class="service-item fade-in-up">
+            <div class="service-icon">🥬</div>
+            <h3>Bahan Segar</h3>
+            <p>
+              Menggunakan bahan-bahan segar pilihan yang dipetik langsung dari
+              kebun untuk menjamin kualitas dan rasa terbaik.
+            </p>
+          </div>
+
+          <div class="service-item fade-in-up">
+            <div class="service-icon">🏪</div>
+            <h3>Halal & Berkualitas</h3>
+            <p>
+              Semua makanan dijamin halal dan diolah dengan standar kebersihan
+              tinggi untuk kepuasan keluarga Anda.
+            </p>
+          </div>
+
+          <div class="service-item fade-in-up">
+            <div class="service-icon">💰</div>
+            <h3>Harga Terjangkau</h3>
+            <p>
+              Menikmati makanan berkualitas dengan harga yang ramah di kantong,
+              cocok untuk makan keluarga sehari-hari.
+            </p>
+          </div>
+
+          <div class="service-item fade-in-up">
+            <div class="service-icon">🏠</div>
+            <h3>Suasana Nyaman</h3>
+            <p>
+              Tempat makan yang bersih dan nyaman dengan nuansa keluarga, cocok
+              untuk berbagai acara dan moment spesial.
+            </p>
+          </div>
+
+          <div class="service-item fade-in-up">
+            <div class="service-icon">🛵</div>
+            <h3>Delivery Tersedia</h3>
+            <p>
+              Layanan antar gratis untuk area sekitar, sehingga Anda bisa
+              menikmati makanan lezat di rumah.
+            </p>
+          </div>
+
+          <div class="service-item fade-in-up">
+            <div class="service-icon">👨‍🍳</div>
+            <h3>Resep Tradisional</h3>
+            <p>
+              Menggunakan resep turun-temurun yang telah teruji waktu,
+              memberikan cita rasa autentik dan nostalgia.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="testimonials">
+      <div class="container">
+        <h2 class="section-title fade-in-up">Apa Kata Pelanggan</h2>
+        <div class="testimonials-grid">
+          <div class="testimonial-item fade-in-up">
+            <img
+              src="WhatsApp Image 2025-09-24 at 14.21.32.jpeg"
+              alt="Foto Pelanggan 1"
+              class="testimonial-img"
+            />
+            <h3>Yusuf Huda</h3>
+            <p class="testimonial-text">
+              "Makanannya enak banget! Nasi Pecel Madiunnya benar-benar otentik,
+              bumbunya pas, dan porsinya mengenyangkan."
+            </p>
+          </div>
+
+          <div class="testimonial-item fade-in-up">
+            <img
+              src="WhatsApp Image 2025-09-24 at 14.27.08.jpeg"
+              alt="Foto Pelanggan 2"
+              class="testimonial-img"
+            />
+            <h3>Arka Pratama</h3>
+            <p class="testimonial-text">
+              "Tempatnya nyaman, cocok untuk makan bareng keluarga. Harganya
+              juga terjangkau. Recommended!"
+            </p>
+          </div>
+
+          <div class="testimonial-item fade-in-up">
+            <img
+              src="WhatsApp Image 2025-09-24 at 14.30.42.jpeg"
+              alt="Foto Pelanggan 3"
+              class="testimonial-img"
+            />
+            <h3>Ilyas Hattami</h3>
+            <p class="testimonial-text">
+              "Pelayanannya ramah, pesan antar juga cepat. Favorit saya jus
+              alpukat spesialnya, segar banget!"
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2 class="section-title fade-in-up">Hubungi Kami</h2>
+        <div class="contact-container">
+          <div class="contact-form fade-in-up">
+            <form id="contactForm">
+              <div class="form-group">
+                <label for="name">Nama Lengkap</label>
+                <input type="text" id="name" name="name" required />
+              </div>
+              <div class="form-group">
+                <label for="phone">Nomor WhatsApp</label>
+                <input type="tel" id="phone" name="phone" required />
+              </div>
+              <div class="form-group">
+                <label for="message">Pesan/Pesanan</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="5"
+                  placeholder="Tuliskan pesanan atau pertanyaan Anda..."
+                ></textarea>
+              </div>
+              <button type="submit" class="submit-btn">Kirim Pesan</button>
+            </form>
+            <a
+              id="btn-wa"
+              style="text-align: center"
+              href="https://wa.me/6281222312956?text=Halo%20Resto%20Jiwan%2C%20saya%20ingin%20memesan..."
+              class="whatsapp-btn"
+              target="_blank"
+            >
+              💬 Chat Langsung via WhatsApp
+            </a>
+          </div>
+          <div class="contact-info fade-in-up">
+            <h3>Informasi Kontak</h3>
+            <p>
+              <strong>Alamat:</strong><br />Alamat: Jl. Marsma TNI Anumerta R.
+              Iswahjudi<br />Desa Jiwan, Kecamatan Jiwan<br />Kabupaten Madiun,
+              Jawa Timur 63161
+            </p>
+            <p>
+              <strong>Jam Operasional:</strong><br />
+              Senin - Minggu: 09.00 - 21.00 WIB<br />
+              (Delivery sampai 20.00 WIB)
+            </p>
+            <p>
+              <strong>Kontak:</strong><br />
+              WhatsApp: +62 812-2231-2956<br />
+              Telepon: (0351) 123-456
+            </p>
+            <p>
+              <strong>Area Delivery:</strong><br />
+              Radius 6 km dari resto (Gratis ongkir)<br />
+              Minimum order Rp 50.000
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Us -->
+    <section id="about" class="about">
+      <div class="container">
+        <h2 class="section-title fade-in-up">Tentang Resto Jiwan</h2>
+        <div class="about-container">
+          <div class="about-text fade-in-up">
+            <p>
+              Resto Jiwan berdiri sejak 2018 dengan misi menghadirkan hidangan
+              tradisional Indonesia yang autentik dan terjangkau. Berawal dari
+              warung kecil dengan resep turun-temurun keluarga, Resto Jiwan
+              mengusung filosofi "Menyajikan Hidangan Dengan Kegembiraan"—setiap
+              masakan diolah dengan cinta, keikhlasan, dan bahan segar dari
+              petani lokal.
+            </p>
+            <br />
+            <p>
+              Kini, Resto Jiwan telah melayani ribuan pelanggan dan menjadi
+              pilihan favorit keluarga di Madiun, khususnya wilayah Jiwan.
+              Dengan komitmen menjaga kualitas rasa sekaligus berinovasi, Resto
+              Jiwan terus menghadirkan menu baru tanpa meninggalkan cita rasa
+              tradisional yang menjadi ciri khasnya.
+            </p>
+          </div>
+          <div class="about-image fade-in-up">
+            <img src="DSC_0161.JPG" alt="Suasana Resto Jiwan" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>Resto Jiwan</h3>
+            <p>
+              Nikmati rasa asli Indonesia dengan harga bersahabat. Melayani
+              dengan sepenuh hati sejak 2018.
+            </p>
+          </div>
+          <div class="footer-section">
+            <h3>Menu Populer</h3>
+            <p>
+              Nasi Goreng Spesial<br />Nasi Pecel Madiun<br />Gado-gado Jiwan<br />
+            </p>
+          </div>
+          <div class="footer-section">
+            <h3>Kontak Cepat</h3>
+            <p>
+              WhatsApp: +62 812-2231-2956<br />Alamat: Jl. Marsma TNI Anumerta
+              R. Iswahjudi<br />Madiun, Jawa Timur
+            </p>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 Resto Jiwan. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Script filter menu -->
+    <script>
+      // Hamburger toggle (mobile)
+      const hamburger = document.getElementById("hamburger");
+      const mobileNav = document.getElementById("mobileNav");
+
+      hamburger.addEventListener("click", () => {
+        mobileNav.classList.toggle("active");
+      });
+
+      document.addEventListener("DOMContentLoaded", () => {
+        // --- Scroll reveal untuk .fade-in-up ---
+        const els = document.querySelectorAll(".fade-in-up");
+
+        if ("IntersectionObserver" in window) {
+          const io = new IntersectionObserver(
+            (entries) => {
+              entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                  entry.target.classList.add("visible"); // -> akan menghapus opacity:0
+                  io.unobserve(entry.target);
+                }
+              });
+            },
+            { threshold: 0.15 }
+          );
+
+          els.forEach((el) => io.observe(el));
+        } else {
+          // Fallback browser lama: tampilkan semuanya
+          els.forEach((el) => el.classList.add("visible"));
+        }
+
+        // --- Filter kategori menu (kalau belum ada scriptnya) ---
+        const btns = document.querySelectorAll(".category-btn");
+        const items = document.querySelectorAll(".menu-item");
+        btns.forEach((btn) => {
+          btn.addEventListener("click", () => {
+            btns.forEach((b) => b.classList.remove("active"));
+            btn.classList.add("active");
+            const cat = btn.dataset.category;
+            items.forEach((it) => {
+              const show = cat === "all" || it.dataset.category === cat;
+              it.style.display = show ? "" : "none";
+            });
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
